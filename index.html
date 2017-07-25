@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+  <title>Capital Cities Quiz</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Montserrat|Raleway|Ubuntu" rel="stylesheet">
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <header class="header" role="banner">
+    <h1 class="quiz-title">Capital Cities Quiz</h1>
+  </header>
+  <section class="start-page" id="start-page">
+    <p>How well do you know the Capital Cities? Click on Start to begin.</p>
+    <button class="start-button" role="button">Start</button>
+  </section>
+  <section class="quiz-questions hide-display" id="quiz-questions">  
+  </section>
+  <section class="navigation">
+    <nav role="navigation" class="quiz-nav hide-display" id="quiz-nav">
+        <p><button class="next-button nav-button" role="button">Next</button></p>
+    </nav>
+  </section>
+  <section class="feedback-page hide-display" id="feedback-page">
+    <h1>Your results!</h1>
+    <p class="final-score"></p>
+    <button class="try-again-button" role="button">Try Again</button>
+  </section>
+  <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+  <script type="text/javascript" src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box;
+}
+
+.hide-display {
+  display: none;
+}
+
+body {
+  padding: 10px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  background: url("./images/city-scape.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+header,
+section {
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+header {
+  background-color: rgba(174, 208, 239, 0.5);
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.8rem;
+  font-family: 'Josefin sans', sans-serif;
+  padding: 20px;
+}
+
+
+.quiz-questions h1 {
+  font-size: 1.3em;
+  font-family: 'Raleway', sans-serif;
+}
+
+.feedback-page h1 {
+  font-size: 2.8em;
+}
+
+.start-page {
+  text-align: center;
+}
+
+.start-page,
+.quiz-questions,
+.feedback-page {
+  background: rgba(255, 255, 255, 0.8);
+  padding: 15px;
+}
+
+fieldset {
+  border: 0px;
+}
+
+button {
+  margin: 5px;
+  padding: 5px 10px;
+  background-color: lightblue;
+  border: lightblue solid 2px;
+  border-radius: 5px;
+}
+
+.quiz-nav p {
+  display: inline-block;
+  margin-top: 25px;
+  margin-right: 10px;
+}
+
+
+#quiz-questions p {
+  display: inline-block;
+  margin: 10px;
+  padding: 5px;
+  border: 1px black solid;
+}
+
+#quiz-questions .correct-answer {
+  background: rgba(91, 140, 59, 0.3);
+  border: rgba(91, 140, 59, 0.3) solid 1px;
+  border-radius: 10px;
+}
+
+label {
+  padding: 5px;
+}
+
+p .final-score {
+  padding: 50px;
+  margin-bottom: 10px;
+}
+
+
+.correct-answer {
+  background: rgba(91, 140, 59, 0.3);
+  border: rgba(91, 140, 59, 0.3) solid 1px;
+  border-radius: 5px;
+}
+
+.wrong-answer {
+  background: rgba(147, 42, 42, 0.3);
+  border: rgba(147, 42, 42, 0.3) solid 1px;
+  border-radius: 10px;
+}
+
+@media only screen and (min-width: 640px) {
+  header,
+  section {
+    width: 50%;
+    margin: 0 auto;
+  }
+}
